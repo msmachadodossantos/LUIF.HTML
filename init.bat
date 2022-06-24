@@ -1,0 +1,11 @@
+@echo off
+
+
+@REM -------------------------------------------------------------------------------------------------------------------
+@REM root files
+@REM ----------
+IF NOT EXIST ".gitignore" (REM. > ".gitignore")
+IF NOT EXIST "CHANGELOG.md" (REM. > "CHANGELOG.md")
+IF NOT EXIST "init.bat" (REM. > "init.bat")
+IF NOT EXIST "LICENSE" (REM. > "LICENSE")
+IF NOT EXIST "README.md" (REM. > "README.md")
