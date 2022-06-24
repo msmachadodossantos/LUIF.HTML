@@ -12,3 +12,9 @@ IF NOT EXIST "LICENSE" (REM. > "LICENSE")
 IF NOT EXIST "package.json" (REM. > "package.json")
 IF NOT EXIST "README.md" (REM. > "README.md")
 IF NOT EXIST "tsconfig.json" (REM. > "tsconfig.json")
+
+
+
+@REM -------------------------------------------------------------------------------------------------------------------
+IF NOT EXIST "dist\" (mkdir "dist\")
+IF NOT EXIST "src\" (mkdir "src\")
