@@ -1,0 +1,22 @@
+{
+  "name": "LUIF.HTML",
+  "description": "Light User Interface for HTML.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Mario Sergio Machado dos Santos",
+  "homepage": "https://github.com/msmachadodossantos/LUIF.HTML",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmachadodossantos/LUIF.HTML"
+  },
+  "bugs": {
+    "url": "https://github.com/msmachadodossantos/LUIF.HTML/issues"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.53.0"
+  }
+}
