@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "System",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "rootDir": "./src/ts",
+    "outDir": "./dist/js"
+  }
+}
