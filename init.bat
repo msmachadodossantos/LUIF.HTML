@@ -19,7 +19,7 @@ IF NOT EXIST "tsconfig.json" (REM. > "tsconfig.json")
 IF NOT EXIST "dist\" (mkdir "dist\")
 IF NOT EXIST "src\" (mkdir "src\")
 IF NOT EXIST "src\scss\" (mkdir "src\scss\")
-    IF NOT EXIST "src\scss\variables.scss" (REM. > "src\scss\variables.scss")
+    IF NOT EXIST "src\scss\_variables.scss" (REM. > "src\scss\_variables.scss")
 IF NOT EXIST "src\ts\" (mkdir "src\ts\")
 
 
