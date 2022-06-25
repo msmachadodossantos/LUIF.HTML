@@ -18,3 +18,5 @@ IF NOT EXIST "tsconfig.json" (REM. > "tsconfig.json")
 @REM -------------------------------------------------------------------------------------------------------------------
 IF NOT EXIST "dist\" (mkdir "dist\")
 IF NOT EXIST "src\" (mkdir "src\")
+IF NOT EXIST "src\" (mkdir "src\scss\")
+IF NOT EXIST "src\" (mkdir "src\ts\")
