@@ -16,6 +16,9 @@ IF NOT EXIST "tsconfig.json" (REM. > "tsconfig.json")
 
 
 @REM -------------------------------------------------------------------------------------------------------------------
+IF NOT EXIST ".vscode\" (mkdir ".vscode\")
+    IF NOT EXIST ".vscode\LUIF.HTML__v1--draft.code-snippets" (REM. > ".vscode\LUIF.HTML__v1--draft.code-snippets")
+    IF NOT EXIST ".vscode\settings.json" (REM. > ".vscode\settings.json")
 IF NOT EXIST "dist\" (mkdir "dist\")
 IF NOT EXIST "src\" (mkdir "src\")
 IF NOT EXIST "src\scss\" (mkdir "src\scss\")
