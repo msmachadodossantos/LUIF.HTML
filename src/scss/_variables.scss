@@ -1,0 +1,39 @@
+@import "function/hue";
+@import "function/tint";
+@import "function/tone";
+@import "function/shade";
+
+
+// -------------------------------------------------------------------------------------------------
+// Breaking points
+// See: https://getbootstrap.com/docs/5.1/layout/grid/#grid-options
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+
+// -------------------------------------------------------------------------------------------------
+// Fonts
+$font-family-sans-serif: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: "Noto Sans Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-size: 13px;
+$font-size-xl: $font-size * 1.1;
+$font-size-lg: $font-size * 1.2;
+$font-size-md: $font-size * 1.3;
+$font-size-sm: $font-size * 1.3;
+$font-size-xs: $font-size * 1.3;
+$font-size-print: 12pt;
+
+
+// -------------------------------------------------------------------------------------------------
+// Colors
+$primary: #000;
+$secondary: #000;
+$accent: #000;
+
+$black: hue(#000000, 5%);
+$gray: hue(#808080, 5%);
+$white: #FFFFFF;
+$wall: tone($white, 5%);
