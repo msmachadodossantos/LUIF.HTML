@@ -1,4 +1,50 @@
 @import "../_variables.scss";
 
+/* General assignments for all viewports. */
 body {
+  background-color: $wall;
+  color: $black;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-xs;
+  line-height: $line-height;
+}
+
+@media only screen and (min-width: $sm) {
+  body {
+    font-size: $font-size-sm;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  body {
+    font-size: $font-size-md;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  body {
+    font-size: $font-size-lg;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  body {
+    font-size: $font-size-xl;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  body {
+    font-size: $font-size-xxl;
+  }
+}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {
+  body {
+    font-size: $font-size-print;
+  }
 }
