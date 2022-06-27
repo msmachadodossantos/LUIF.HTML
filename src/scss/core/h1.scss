@@ -1,4 +1,22 @@
 @import "../_variables.scss";
 
+/* General assignments for all viewports. */
 h1 {
+  line-height: 150%;
 }
+
+@media only screen and (min-width: $sm) {}
+
+@media only screen and (min-width: $md) {}
+
+@media only screen and (min-width: $lg) {}
+
+@media only screen and (min-width: $xl) {}
+
+@media only screen and (min-width: $xxl) {}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {}
