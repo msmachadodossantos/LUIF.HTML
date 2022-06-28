@@ -1,4 +1,71 @@
 @import "../_variables.scss";
 
+/* General assignments for all viewports. */
 blockquote {
+  font-size: calc($font-size-xs * .8);
+  margin: 0;
+  margin-block-end: $font-size-xs;
+  margin-block-start: $font-size-xs;
+  opacity: .8;
+  padding: 0 0 0 calc($font-size-xs * 3);
+}
+
+@media only screen and (min-width: $sm) {
+  blockquote {
+    font-size: calc($font-size-sm * .8);
+    margin-block-end: $font-size-sm;
+    margin-block-start: $font-size-sm;
+    padding-left: calc($font-size-sm * 5);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  blockquote {
+    font-size: calc($font-size-md * .8);
+    margin-block-end: $font-size-md;
+    margin-block-start: $font-size-md;
+    padding-left: calc($font-size-md * 5);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  blockquote {
+    font-size: calc($font-size-lg * .8);
+    margin-block-end: $font-size-lg;
+    margin-block-start: $font-size-lg;
+    padding-left: calc($font-size-lg * 5);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  blockquote {
+    font-size: calc($font-size-xl * .8);
+    margin-block-end: $font-size-xl;
+    margin-block-start: $font-size-xl;
+    padding-left: calc($font-size-xl * 5);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  blockquote {
+    font-size: calc($font-size-xxl * .8);
+    margin-block-end: $font-size-xxl;
+    margin-block-start: $font-size-xxl;
+    padding-left: calc($font-size-xxl * 5);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media print {
+  blockquote {
+    font-size: calc($font-size-print * .8);
+    margin-block-end: $font-size-print;
+    margin-block-start: $font-size-print;
+    padding-left: calc($font-size-print * 5);
+  }
 }
