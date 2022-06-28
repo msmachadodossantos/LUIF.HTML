@@ -16,38 +16,56 @@ article {
 
       a {
         display: block;
+        font-weight: 400;
         margin-top: calc(calc(calc($font-size-xs * 1.1) * -1) - 8px);
         padding-left: 144px;
       }
 
       h1 {
+        border-bottom: 1px solid #CCCCCC;
         counter-reset: h2;
         margin-block-end: 13px;
         margin-block-start: 13px;
+        padding-bottom: 10px;
       }
 
       h2 {
+        border-bottom: 1px solid #CCCCCC;
         counter-reset: h3;
         margin-block-end: 13px;
         margin-block-start: 13px;
+        padding-bottom: 10px;
       }
 
       h3 {
+        border-bottom: 1px solid #CCCCCC;
         counter-reset: h4;
         margin-block-end: 13px;
         margin-block-start: 13px;
+        padding-bottom: 10px;
       }
 
       h4 {
+        border-bottom: 1px solid #CCCCCC;
         counter-reset: h5;
         margin-block-end: 13px;
         margin-block-start: 13px;
+        padding-bottom: 10px;
       }
 
       h5 {
+        border-bottom: 1px solid #CCCCCC;
         counter-reset: h6;
         margin-block-end: 13px;
         margin-block-start: 13px;
+        padding-bottom: 10px;
+      }
+
+      h6 {
+        border-bottom: 1px solid #CCCCCC;
+        margin-block-end: 13px;
+        margin-block-start: 13px;
+        padding-bottom: 10px;
       }
 
       h1:before {
