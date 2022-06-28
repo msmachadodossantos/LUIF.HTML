@@ -2,21 +2,63 @@
 
 /* General assignments for all viewports. */
 h6 {
+  font-size: calc($font-size-xs * 1.1);
+  margin: 0;
+  margin-block-end: calc(calc($font-size-xs * 1.1) * 1.5);
+  margin-block-start: calc(calc($font-size-xs * 1.1) * 1.5);
+  padding: 0;
+  letter-spacing: .03rem;
   line-height: 150%;
 }
 
-@media only screen and (min-width: $sm) {}
+@media only screen and (min-width: $sm) {
+  h6 {
+    font-size: calc($font-size-sm * 1.1);
+    margin-block-end: calc(calc($font-size-sm * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-sm * 1.1) * 1.5);
+  }
+}
 
-@media only screen and (min-width: $md) {}
+@media only screen and (min-width: $md) {
+  h6 {
+    font-size: calc($font-size-md * 1.1);
+    margin-block-end: calc(calc($font-size-md * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-md * 1.1) * 1.5);
+  }
+}
 
-@media only screen and (min-width: $lg) {}
+@media only screen and (min-width: $lg) {
+  h6 {
+    font-size: calc($font-size-lg * 1.1);
+    margin-block-end: calc(calc($font-size-lg * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-lg * 1.1) * 1.5);
+  }
+}
 
-@media only screen and (min-width: $xl) {}
+@media only screen and (min-width: $xl) {
+  h6 {
+    font-size: calc($font-size-xl * 1.1);
+    margin-block-end: calc(calc($font-size-xl * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-xl * 1.1) * 1.5);
+  }
+}
 
-@media only screen and (min-width: $xxl) {}
+@media only screen and (min-width: $xxl) {
+  h6 {
+    font-size: calc($font-size-xxl * 1.1);
+    margin-block-end: calc(calc($font-size-xxl * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-xxl * 1.1) * 1.5);
+  }
+}
 
 @media (prefers-color-scheme: light) {}
 
 @media (prefers-color-scheme: dark) {}
 
-@media print {}
+@media print {
+  h6 {
+    font-size: calc($font-size-print * 1.1);
+    margin-block-end: calc(calc($font-size-print * 1.1) * 1.5);
+    margin-block-start: calc(calc($font-size-print * 1.1) * 1.5);
+  }
+}
