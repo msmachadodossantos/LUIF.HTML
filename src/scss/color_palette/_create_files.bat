@@ -1,5 +1,10 @@
 ECHO OFF
 
+IF NOT EXIST "bg_black.scss" ECHO @import "../_variables"; .bg_black {background-color: $black;} > "bg_black.scss"
+IF NOT EXIST "bg_gray.scss" ECHO @import "../_variables"; .bg_gray {background-color: $gray;} > "bg_gray.scss"
+IF NOT EXIST "bg_white.scss" ECHO @import "../_variables"; .bg_white {background-color: $white;} > "bg_white.scss"
+IF NOT EXIST "bg_wall.scss" ECHO @import "../_variables"; .bg_wall {background-color: $wall;} > "bg_wall.scss"
+
 IF NOT EXIST "bg_primary.scss" ECHO @import "../_variables"; .bg_primary {background-color: $primary;} > "bg_primary.scss"
 IF NOT EXIST "bg_primary-shade-5.scss" ECHO @import "../_variables"; .bg_primary-shade-5 {background-color: $primary-shade-5;} > "bg_primary-shade-5.scss"
 IF NOT EXIST "bg_primary-shade-10.scss" ECHO @import "../_variables"; .bg_primary-shade-10 {background-color: $primary-shade-10;} > "bg_primary-shade-10.scss"
