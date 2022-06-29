@@ -1,8 +1,8 @@
 # Light User Interface Framework for HTML
 
 ## Summary
-This project aims to provide a platform for building user interfaces that activate only the 
-necessary features of the respective HTML document.
+This project aims to provide a platform for building user interfaces that loads only the 
+necessary assets for a respective HTML document.
 
 The HTML document written on this platform will exploit most of the features standardized by the 
 WHATWG (https://whatwg.org/) for web browsers.
