@@ -42,3 +42,21 @@ function cleanCore() {
 }
 
 exports.core = series(cleanCore, core);
+
+
+// -------------------------------------------------------------------------------------------------
+const colorPaletteSrc = "src/scss/color_palette/**/*.scss";
+const colorPaletteDest = "dist/css/color_palette/";
+
+function colorPalette() {
+    return gulp.src(colorPaletteSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(colorPaletteDest));
+}
+
+function cleanColorPalette() {
+    return gulp.src(colorPaletteDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.colorPalette = series(cleanColorPalette, colorPalette);
