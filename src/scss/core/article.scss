@@ -14,6 +14,15 @@ article {
       font-family: $font-family-monospace;
       padding-top: 5px;
 
+      .item:nth-child(odd) {
+        background-color: #E9E9E9;
+      }
+
+      .item:nth-child(even) {
+        background-color: #F5F5F5;
+      }
+
+
       a {
         display: block;
         font-weight: 400;
@@ -22,50 +31,44 @@ article {
       }
 
       h1 {
-        border-bottom: 1px solid #CCCCCC;
         counter-reset: h2;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h2 {
-        border-bottom: 1px solid #CCCCCC;
         counter-reset: h3;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h3 {
-        border-bottom: 1px solid #CCCCCC;
         counter-reset: h4;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h4 {
-        border-bottom: 1px solid #CCCCCC;
         counter-reset: h5;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h5 {
-        border-bottom: 1px solid #CCCCCC;
         counter-reset: h6;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h6 {
-        border-bottom: 1px solid #CCCCCC;
-        margin-block-end: 13px;
-        margin-block-start: 13px;
-        padding-bottom: 10px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 13px;
       }
 
       h1:before {
