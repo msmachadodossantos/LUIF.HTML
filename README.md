@@ -1,7 +1,7 @@
 # Light User Interface Framework for HTML
 
 ## Summary
-This project aims to provide a platform for building user interfaces that loads only the 
+This project aims to provide a platform for building user interfaces that load only the 
 necessary assets for a respective HTML document.
 
 The HTML document written on this platform will exploit most of the features standardized by the 
