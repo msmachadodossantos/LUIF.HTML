@@ -89,8 +89,65 @@ article {
       opacity: .5;
     }
 
+    .legal-person {
+      font-weight: $font-weight-bold;
+      letter-spacing: .03rem;
+      text-transform: uppercase;
+    }
+
+    .monetary-value {
+      font-family: $font-family-monospace;
+      font-weight: $font-weight-bold;
+      text-transform: uppercase;
+    }
+
+    .monetary-value.usd:before {
+      content: "USD-";
+      opacity: .8;
+    }
+
+    .monetary-value.eur:before {
+      content: "EUR-";
+      opacity: .8;
+    }
+
+    .monetary-value.jpy:before {
+      content: "JPY-";
+      opacity: .8;
+    }
+
+    .monetary-value.gbp:before {
+      content: "GBP-";
+      opacity: .8;
+    }
+
+    .monetary-value.aud:before {
+      content: "AUD-";
+      opacity: .8;
+    }
+
+    .monetary-value.aud:before {
+      content: "CAD-";
+      opacity: .8;
+    }
+
+    .monetary-value.krw:before {
+      content: "KRW-";
+      opacity: .8;
+    }
+
+    .monetary-value.cny:before {
+      content: "CNY-";
+      opacity: .8;
+    }
+
+    .monetary-value.brl:before {
+      content: "BRL-";
+      opacity: .8;
+    }
+
     .title-without-numerical-indication {
-      font-weight: 700;
+      font-weight: $font-weight-bold;
       letter-spacing: .03rem;
       margin-top: 55px;
       opacity: .5;
