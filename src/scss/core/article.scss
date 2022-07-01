@@ -1,3 +1,5 @@
+// TODO: break this file into parts.
+
 @import "../_variables.scss";
 
 /* General assignments for all viewports. */
@@ -95,7 +97,8 @@ article {
       text-transform: uppercase;
     }
 
-    .monetary-value {
+    .monetary-value,
+    .numeric-value {
       font-family: $font-family-monospace;
       font-weight: $font-weight-bold;
       text-transform: uppercase;
