@@ -2,7 +2,9 @@
 
 /* General assignments for all viewports. */
 h4 {
+  font-family: $font-family-sans-serif;
   font-size: calc($font-size-xs * 1.1);
+  font-weight: $font-weight-bold;
   margin: 0;
   margin-block-end: calc(calc($font-size-xs * 1.1) * 1.5);
   margin-block-start: calc(calc($font-size-xs * 1.1) * 1.5);
