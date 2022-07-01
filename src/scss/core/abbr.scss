@@ -1,4 +1,24 @@
-@import "../_variables.scss";
+@import "../variables";
 
+/* General assignments for all viewports. */
 abbr {
+  border-bottom: 2px dashed $rose;
+  padding-bottom: 1px;
+  text-decoration: none;
 }
+
+@media only screen and (min-width: $sm) {}
+
+@media only screen and (min-width: $md) {}
+
+@media only screen and (min-width: $lg) {}
+
+@media only screen and (min-width: $xl) {}
+
+@media only screen and (min-width: $xxl) {}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {}
