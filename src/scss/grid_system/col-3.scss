@@ -1,0 +1,46 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.col-3 {
+  grid-column: span 3;
+}
+
+@media only screen and (min-width: $sm) {
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .col-md-3 {
+    grid-column: span 3;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .col-xl-3 {
+    grid-column: span 3;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .col-xxl-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {
+  .col-print-3 {
+    grid-column: span 3;
+  }
+}
