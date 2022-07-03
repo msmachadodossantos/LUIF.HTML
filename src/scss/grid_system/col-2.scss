@@ -1,0 +1,46 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.col-2 {
+  grid-column: span 2;
+}
+
+@media only screen and (min-width: $sm) {
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .col-md-2 {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .col-xl-2 {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .col-xxl-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {
+  .col-print-2 {
+    grid-column: span 2;
+  }
+}
