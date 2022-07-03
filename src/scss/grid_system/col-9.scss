@@ -1,0 +1,46 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.col-9 {
+  grid-column: span 9;
+}
+
+@media only screen and (min-width: $sm) {
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .col-md-9 {
+    grid-column: span 9;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .col-xl-9 {
+    grid-column: span 9;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .col-xxl-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
+
+@media print {
+  .col-print-9 {
+    grid-column: span 9;
+  }
+}
