@@ -1,0 +1,32 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  gap: $BASE_NUMBER;
+}
+
+@media only screen and (min-width: $sm) {
+}
+
+@media only screen and (min-width: $md) {
+}
+
+@media only screen and (min-width: $lg) {
+}
+
+@media only screen and (min-width: $xl) {
+}
+
+@media only screen and (min-width: $xxl) {
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media print {
+}
