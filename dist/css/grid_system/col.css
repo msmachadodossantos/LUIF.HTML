@@ -1,0 +1,1 @@
+.col{grid-column:span 1}@media print{.col{grid-column:span 1}}
