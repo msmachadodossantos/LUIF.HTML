@@ -1,4 +1,114 @@
-@import "../_variables.scss";
+@import "../variables";
+
+/* General assignments for all viewports. */
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 table {
+  border: 1px solid $black-tint-85;
+  border-spacing: 0;
+  font-family: $font-family-monospace;
+  font-size: calc($font-size-xs * .8);
+  line-height: calc(calc($font-size-xs * .8) * 1.5);
+  max-width: 100%;
+  width: 100%;
+
+  caption, th, td {
+    padding: calc($font-size-xs * .3);
+  }
+
+  caption {
+    background-color: $black-tint-90;
+    border: 1px solid $black-tint-85;
+    border-bottom: 0;
+  }
+
+  thead {
+    tr {
+      th {
+        background-color: $black-tint-95;
+        border-bottom: 1px solid $black-tint-85;
+        border-right: 1px solid $black-tint-85;
+      }
+
+      th:last-child {
+        border-right: 0;
+      }
+    }
+
+    tr:last-child {
+      th {
+        border-bottom: 3px solid $black-tint-85;
+      }
+    }
+  }
+
+  tbody, tfoot {
+    tr {
+      td {
+        border-bottom: 1px solid $black-tint-85;
+        border-right: 1px solid $black-tint-85;
+      }
+
+      td:last-child {
+        border-right: 0;
+      }
+    }
+
+    tr:last-child {
+      td {
+        border-bottom: 0;
+      }
+    }
+
+    tr:nth-child(odd) {
+      background-color: $wall;
+    }
+
+    tr:nth-child(even) {
+      background-color: $white;
+    }
+  }
+
+  tfoot {
+    tr:first-child {
+      td {
+        border-top: 3px solid $black-tint-85;
+      }
+    }
+
+    tr:last-child {
+      td {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $sm) {
+}
+
+@media only screen and (min-width: $md) {
+}
+
+@media only screen and (min-width: $lg) {
+}
+
+@media only screen and (min-width: $xl) {
+}
+
+@media only screen and (min-width: $xxl) {
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media print {
 }
