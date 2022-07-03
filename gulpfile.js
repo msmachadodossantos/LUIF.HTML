@@ -60,3 +60,22 @@ function cleanColorPalette() {
 }
 
 exports.colorPalette = series(cleanColorPalette, colorPalette);
+
+
+
+// -------------------------------------------------------------------------------------------------
+const gridSystemSrc = "src/scss/grid_system/**/*.scss";
+const gridSystemDest = "dist/css/grid_system/";
+
+function gridSystem() {
+    return gulp.src(gridSystemSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(gridSystemDest));
+}
+
+function cleanGridSystem() {
+    return gulp.src(gridSystemDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.gridSystem = series(cleanGridSystem, gridSystem);
