@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.pl-2 {
+  padding-left: calc(calc($BASE_NUMBER * .2) * 2);
+}

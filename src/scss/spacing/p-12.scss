@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.p-12 {
+  padding: calc(calc($BASE_NUMBER * .2) * 12);
+}

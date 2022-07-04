@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.mb-8 {
+  margin-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+}

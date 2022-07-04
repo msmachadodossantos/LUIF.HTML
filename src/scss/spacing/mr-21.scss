@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.mr-21 {
+  margin-right: calc(calc($BASE_NUMBER * .2) * 21);
+}

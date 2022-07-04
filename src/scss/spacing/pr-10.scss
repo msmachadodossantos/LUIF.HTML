@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.pr-10 {
+  padding-right: calc(calc($BASE_NUMBER * .2) * 10);
+}

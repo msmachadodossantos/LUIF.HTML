@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.pb-20 {
+  padding-bottom: calc(calc($BASE_NUMBER * .2) * 20);
+}

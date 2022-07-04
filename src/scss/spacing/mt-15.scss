@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.mt-15 {
+  margin-top: calc(calc($BASE_NUMBER * .2) * 15);
+}

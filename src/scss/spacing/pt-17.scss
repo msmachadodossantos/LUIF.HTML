@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.pt-17 {
+  padding-top: calc(calc($BASE_NUMBER * .2) * 17);
+}

@@ -1,0 +1,5 @@
+@import "../variables.scss";
+
+.m-17 {
+  margin: calc(calc($BASE_NUMBER * .2) * 17);
+}
