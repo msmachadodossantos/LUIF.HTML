@@ -8,25 +8,6 @@ const clean = require('gulp-clean');
 
 
 // -------------------------------------------------------------------------------------------------
-const devSrc = "src/scss/**/*.scss";
-const devDest = "dist/css/dev/";
-
-function dev() {
-    return gulp.src(devSrc, {"allowEmpty": true})
-        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
-        .pipe(concat('dev.css'))
-        .pipe(dest(devDest));
-}
-
-function cleanDev() {
-    return gulp.src(devDest, {"allowEmpty": true, read: false})
-        .pipe(clean());
-}
-
-exports.dev = series(cleanDev, dev);
-
-
-// -------------------------------------------------------------------------------------------------
 const coreSrc = "src/scss/core/**/*.scss";
 const coreDest = "dist/css/core/";
 
@@ -62,7 +43,6 @@ function cleanColorPalette() {
 exports.colorPalette = series(cleanColorPalette, colorPalette);
 
 
-
 // -------------------------------------------------------------------------------------------------
 const gridSystemSrc = "src/scss/grid_system/**/*.scss";
 const gridSystemDest = "dist/css/grid_system/";
@@ -79,3 +59,21 @@ function cleanGridSystem() {
 }
 
 exports.gridSystem = series(cleanGridSystem, gridSystem);
+
+
+// -------------------------------------------------------------------------------------------------
+const spacingSrc = "src/scss/spacing/**/*.scss";
+const spacingDest = "dist/css/spacing/";
+
+function spacing() {
+    return gulp.src(spacingSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(spacingDest));
+}
+
+function cleanSpacing() {
+    return gulp.src(spacingDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.spacing = series(cleanSpacing, spacing);
