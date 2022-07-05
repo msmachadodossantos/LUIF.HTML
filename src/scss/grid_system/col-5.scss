@@ -3,35 +3,41 @@
 /* General assignments for all viewports. */
 .col-5 {
   grid-column: span 5;
+  padding: calc($BASE_NUMBER / 2);
 }
 
 @media only screen and (min-width: $sm) {
   .col-sm-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $md) {
   .col-md-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $lg) {
   .col-lg-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xl) {
   .col-xl-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xxl) {
   .col-xxl-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
 
@@ -42,5 +48,6 @@
 @media print {
   .col-print-5 {
     grid-column: span 5;
+    padding: calc($BASE_NUMBER / 2);
   }
 }
