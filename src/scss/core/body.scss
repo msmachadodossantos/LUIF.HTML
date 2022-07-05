@@ -11,6 +11,22 @@ body {
   padding: 0;
 }
 
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
 @media only screen and (min-width: $sm) {
   body {
     font-size: $font-size-sm;
@@ -41,9 +57,11 @@ body {
   }
 }
 
-@media (prefers-color-scheme: light) {}
+@media (prefers-color-scheme: light) {
+}
 
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+}
 
 @media print {
   body {
