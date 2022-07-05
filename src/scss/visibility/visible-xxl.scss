@@ -2,7 +2,7 @@
 @import "../variables";
 
 /* General assignments for all viewports. */
-.visible--xxl {
+.visible-xxl {
   display: none;
 }
 
@@ -15,11 +15,11 @@
 @media screen and (min-width: $xl) {}
 
 @media screen and (min-width: $xxl) {
-  .visible--xxl {
+  .visible-xxl {
     display: initial;
   }
 
-  .invisible--xxl {
+  .invisible-xxl {
     display: none;
   }
 }
