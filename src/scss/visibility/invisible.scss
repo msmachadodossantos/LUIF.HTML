@@ -7,37 +7,37 @@
 }
 
 @media screen and (min-width: $sm) {
-  .invisible--sm {
+  .invisible-sm {
     display: none;
   }
 }
 
 @media screen and (min-width: $md) {
-  .invisible--md {
+  .invisible-md {
     display: none;
   }
 }
 
 @media screen and (min-width: $lg) {
-  .invisible--lg {
+  .invisible-lg {
     display: none;
   }
 }
 
 @media screen and (min-width: $xl) {
-  .invisible--xl {
+  .invisible-xl {
     display: none;
   }
 }
 
 @media screen and (min-width: $xxl) {
-  .invisible--xxl {
+  .invisible-xxl {
     display: none;
   }
 }
 
 @media print {
-  .invisible--print {
+  .invisible-print {
     display: none;
   }
 }
