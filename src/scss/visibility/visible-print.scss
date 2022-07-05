@@ -1,0 +1,27 @@
+
+@import "../variables";
+
+/* General assignments for all viewports. */
+.visible-print {
+  display: none;
+}
+
+@media screen and (min-width: $sm) {}
+
+@media screen and (min-width: $md) {}
+
+@media screen and (min-width: $lg) {}
+
+@media screen and (min-width: $xl) {}
+
+@media screen and (min-width: $xxl) {}
+
+@media print {
+  .visible-print {
+    display: initial;
+  }
+
+  .invisible-print {
+    display: none;
+  }
+}
