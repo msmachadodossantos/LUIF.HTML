@@ -1,76 +1,8 @@
-@import "../variables";
-
-/* General assignments for all viewports. */
-.visible {
-  display: initial;
-}
-
-.visible--sm,
-.visible--md,
-.visible--lg,
-.visible--xl,
-.visible--xxl,
-.visible--print,
-.invisible {
-  display: none;
-}
-
-@media screen and (min-width: $sm) {
-  .visible--sm {
-    display: initial;
-  }
-
-  .invisible--sm {
-    display: none;
-  }
-}
-
-@media screen and (min-width: $md) {
-  .visible--md {
-    display: initial;
-  }
-
-  .invisible--md {
-    display: none;
-  }
-}
-
-@media screen and (min-width: $lg) {
-  .visible--lg {
-    display: initial;
-  }
-
-  .invisible--lg {
-    display: none;
-  }
-}
-
-@media screen and (min-width: $xl) {
-  .visible--xl {
-    display: initial;
-  }
-
-  .invisible--xl {
-    display: none;
-  }
-}
-
-@media screen and (min-width: $xxl) {
-  .visible--xxl {
-    display: initial;
-  }
-
-  .invisible--xxl {
-    display: none;
-  }
-}
-
-@media print {
-  .visible--print {
-    display: initial;
-  }
-
-  .invisible--print {
-    display: none;
-  }
-}
+@import "invisible";
+@import "visible";
+@import "visible-sm";
+@import "visible-md";
+@import "visible-lg";
+@import "visible-xl";
+@import "visible-xxl";
+@import "visible-print";
