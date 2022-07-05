@@ -4,7 +4,6 @@
 .row {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  gap: $BASE_NUMBER;
 }
 
 @media only screen and (min-width: $sm) {
