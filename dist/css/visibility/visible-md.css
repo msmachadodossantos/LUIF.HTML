@@ -1,0 +1,1 @@
+.visible-md{display:none}@media screen and (min-width: 768px){.visible-md{display:initial}.invisible-md{display:none}}
