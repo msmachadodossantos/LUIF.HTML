@@ -1,0 +1,1 @@
+.visible--sm{display:none}@media screen and (min-width: 576px){.visible--sm{display:initial}.invisible--sm{display:none}}

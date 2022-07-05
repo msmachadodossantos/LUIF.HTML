@@ -77,3 +77,21 @@ function cleanSpacing() {
 }
 
 exports.spacing = series(cleanSpacing, spacing);
+
+
+// -------------------------------------------------------------------------------------------------
+const visibilitySrc = "src/scss/visibility/**/*.scss";
+const visibilityDest = "dist/css/visibility/";
+
+function visibility() {
+    return gulp.src(visibilitySrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(visibilityDest));
+}
+
+function cleanVisibility() {
+    return gulp.src(visibilityDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.visibility = series(cleanVisibility, visibility);
