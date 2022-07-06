@@ -1,3 +1,5 @@
+// TODO: Break this file into parts.
+
 @import "../_variables.scss";
 
 /* General assignments for all viewports. */
@@ -11,20 +13,52 @@ body {
   padding: 0;
 }
 
-.d-inline-block {
-  display: inline-block;
-}
-
 .d-block {
   display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
 }
 
 .d-none {
   display: none;
 }
 
-.d-inline {
-  display: inline;
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
 }
 
 .txt-center {
