@@ -3,3 +3,39 @@
 .ml-3 {
   margin-left: calc(calc($BASE_NUMBER * .2) * 3);
 }
+
+@media only screen and (min-width: $sm) {
+  .ml-sm-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .ml-md-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .ml-lg-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .ml-xl-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .ml-xxl-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}
+
+@media print {
+  .ml-print-3 {
+    margin-left: calc(calc($BASE_NUMBER * .2) * 3);
+  }
+}

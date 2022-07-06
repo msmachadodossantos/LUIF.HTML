@@ -3,3 +3,39 @@
 .pt-16 {
   padding-top: calc(calc($BASE_NUMBER * .2) * 16);
 }
+
+@media only screen and (min-width: $sm) {
+  .pt-sm-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .pt-md-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .pt-lg-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .pt-xl-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .pt-xxl-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}
+
+@media print {
+  .pt-print-16 {
+    padding-top: calc(calc($BASE_NUMBER * .2) * 16);
+  }
+}

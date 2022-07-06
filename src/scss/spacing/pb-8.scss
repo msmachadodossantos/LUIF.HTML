@@ -3,3 +3,39 @@
 .pb-8 {
   padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
 }
+
+@media only screen and (min-width: $sm) {
+  .pb-sm-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .pb-md-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .pb-lg-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .pb-xl-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .pb-xxl-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}
+
+@media print {
+  .pb-print-8 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 8);
+  }
+}

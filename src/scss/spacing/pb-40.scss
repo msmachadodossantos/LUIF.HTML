@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.pb-40 {
+  padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+}
+
+@media only screen and (min-width: $sm) {
+  .pb-sm-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .pb-md-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .pb-lg-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .pb-xl-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .pb-xxl-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}
+
+@media print {
+  .pb-print-40 {
+    padding-bottom: calc(calc($BASE_NUMBER * .2) * 40);
+  }
+}

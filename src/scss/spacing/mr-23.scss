@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.mr-23 {
+  margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+}
+
+@media only screen and (min-width: $sm) {
+  .mr-sm-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .mr-md-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .mr-lg-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .mr-xl-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .mr-xxl-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}
+
+@media print {
+  .mr-print-23 {
+    margin-right: calc(calc($BASE_NUMBER * .2) * 23);
+  }
+}

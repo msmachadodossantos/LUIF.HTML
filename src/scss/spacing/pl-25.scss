@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.pl-25 {
+  padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+}
+
+@media only screen and (min-width: $sm) {
+  .pl-sm-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .pl-md-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .pl-lg-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .pl-xl-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .pl-xxl-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
+
+@media print {
+  .pl-print-25 {
+    padding-left: calc(calc($BASE_NUMBER * .2) * 25);
+  }
+}
