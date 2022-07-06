@@ -2,41 +2,41 @@
 
 /* General assignments for all viewports. */
 .col-12 {
-  grid-column: span 12;
+  grid-column: 1 / span 12;
   padding: calc($BASE_NUMBER / 2);
 }
 
 @media only screen and (min-width: $sm) {
   .col-sm-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $md) {
   .col-md-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $lg) {
   .col-lg-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xl) {
   .col-xl-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xxl) {
   .col-xxl-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
@@ -47,7 +47,7 @@
 
 @media print {
   .col-print-12 {
-    grid-column: span 12;
+    grid-column: 1 / span 12;
     padding: calc($BASE_NUMBER / 2);
   }
 }
