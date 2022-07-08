@@ -131,3 +131,21 @@ function cleanDisplay() {
 }
 
 exports.display = series(cleanDisplay, display);
+
+
+// -------------------------------------------------------------------------------------------------
+const breadcrumbSrc = "src/scss/breadcrumb/**/*.scss";
+const breadcrumbDest = "dist/css/breadcrumb/";
+
+function breadcrumb() {
+    return gulp.src(breadcrumbSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(breadcrumbDest));
+}
+
+function cleanBreadcrumb() {
+    return gulp.src(breadcrumbDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.breadcrumb = series(cleanBreadcrumb, breadcrumb);
