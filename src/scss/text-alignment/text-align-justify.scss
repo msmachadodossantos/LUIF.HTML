@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.text-align-justify {
+  text-align: justify;
+}
+
+@media only screen and (min-width: $sm) {
+  .text-align-sm-justify {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .text-align-md-justify {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .text-align-lg-justify {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .text-align-xl-justify {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .text-align-xxl-justify {
+    text-align: justify;
+  }
+}
+
+@media print {
+  .text-align-print-justify {
+    text-align: justify;
+  }
+}
