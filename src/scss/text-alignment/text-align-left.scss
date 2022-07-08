@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.text-align-left {
+  text-align: left;
+}
+
+@media only screen and (min-width: $sm) {
+  .text-align-sm-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .text-align-md-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .text-align-lg-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .text-align-xl-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .text-align-xxl-left {
+    text-align: left;
+  }
+}
+
+@media print {
+  .text-align-print-left {
+    text-align: left;
+  }
+}
