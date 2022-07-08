@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.display-none {
+  display: none;
+}
+
+@media only screen and (min-width: $sm) {
+  .display-sm-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .display-md-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .display-lg-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .display-xl-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .display-xxl-none {
+    display: none;
+  }
+}
+
+@media print {
+  .display-print-none {
+    display: none;
+  }
+}
