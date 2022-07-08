@@ -113,3 +113,21 @@ function cleanTextAlignment() {
 }
 
 exports.textAlignment = series(cleanTextAlignment, textAlignment);
+
+
+// -------------------------------------------------------------------------------------------------
+const displaySrc = "src/scss/display/**/*.scss";
+const displayDest = "dist/css/display/";
+
+function display() {
+    return gulp.src(displaySrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(displayDest));
+}
+
+function cleanDisplay() {
+    return gulp.src(displayDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.display = series(cleanDisplay, display);
