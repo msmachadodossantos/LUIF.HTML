@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.text-align-right {
+  text-align: right;
+}
+
+@media only screen and (min-width: $sm) {
+  .text-align-sm-right {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .text-align-md-right {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .text-align-lg-right {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .text-align-xl-right {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .text-align-xxl-right {
+    text-align: right;
+  }
+}
+
+@media print {
+  .text-align-print-right {
+    text-align: right;
+  }
+}
