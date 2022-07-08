@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.display-initial {
+  display: initial;
+}
+
+@media only screen and (min-width: $sm) {
+  .display-sm-initial {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .display-md-initial {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .display-lg-initial {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .display-xl-initial {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .display-xxl-initial {
+    display: initial;
+  }
+}
+
+@media print {
+  .display-print-initial {
+    display: initial;
+  }
+}
