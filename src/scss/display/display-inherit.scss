@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.display-inherit {
+  display: inherit;
+}
+
+@media only screen and (min-width: $sm) {
+  .display-sm-inherit {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .display-md-inherit {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .display-lg-inherit {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .display-xl-inherit {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .display-xxl-inherit {
+    display: inherit;
+  }
+}
+
+@media print {
+  .display-print-inherit {
+    display: inherit;
+  }
+}
