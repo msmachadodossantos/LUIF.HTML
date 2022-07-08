@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.display-block {
+  display: block;
+}
+
+@media only screen and (min-width: $sm) {
+  .display-sm-block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .display-md-block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .display-lg-block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .display-xl-block {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .display-xxl-block {
+    display: block;
+  }
+}
+
+@media print {
+  .display-print-block {
+    display: block;
+  }
+}
