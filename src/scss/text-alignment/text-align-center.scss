@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.text-align-center {
+  text-align: center;
+}
+
+@media only screen and (min-width: $sm) {
+  .text-align-sm-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .text-align-md-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .text-align-lg-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .text-align-xl-center {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .text-align-xxl-center {
+    text-align: center;
+  }
+}
+
+@media print {
+  .text-align-print-center {
+    text-align: center;
+  }
+}
