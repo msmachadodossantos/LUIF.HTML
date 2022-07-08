@@ -95,3 +95,21 @@ function cleanVisibility() {
 }
 
 exports.visibility = series(cleanVisibility, visibility);
+
+
+// -------------------------------------------------------------------------------------------------
+const textAlignmentSrc = "src/scss/text-alignment/**/*.scss";
+const textAlignmentDest = "dist/css/text-alignment/";
+
+function textAlignment() {
+    return gulp.src(textAlignmentSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(textAlignmentDest));
+}
+
+function cleanTextAlignment() {
+    return gulp.src(textAlignmentDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.textAlignment = series(cleanTextAlignment, textAlignment);
