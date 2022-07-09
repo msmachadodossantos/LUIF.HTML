@@ -21,7 +21,6 @@ article {
       color: $black-tint-80;
       counter-increment: p;
       content: counter(p);
-      font-family: $font-family-monospace;
       margin-right: calc($font-size-xs * 1.1);
     }
 
