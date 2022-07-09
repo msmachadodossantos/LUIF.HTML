@@ -6,28 +6,28 @@
   padding: calc($BASE_NUMBER / 2);
 }
 
-@media only screen and (min-width: $sm) {
+@media only screen and (min-width: $sm) and (max-width: $md - 1) {
   .col-sm-12 {
     grid-column: span 12 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
-@media only screen and (min-width: $md) {
+@media only screen and (min-width: $md) and (max-width: $lg - 1) {
   .col-md-12 {
     grid-column: span 12 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
-@media only screen and (min-width: $lg) {
+@media only screen and (min-width: $lg) and (max-width: $xl - 1) {
   .col-lg-12 {
     grid-column: span 12 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
-@media only screen and (min-width: $xl) {
+@media only screen and (min-width: $xl) and (max-width: $xxl - 1) {
   .col-xl-12 {
     grid-column: span 12 !important;
     padding: calc($BASE_NUMBER / 2);

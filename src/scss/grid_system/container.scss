@@ -11,16 +11,16 @@
   max-width: 100%;
 }
 
-@media only screen and (min-width: $sm) {
+@media only screen and (min-width: $sm) and (max-width: $md - 1) {
 }
 
-@media only screen and (min-width: $md) {
+@media only screen and (min-width: $md) and (max-width: $lg - 1) {
 }
 
-@media only screen and (min-width: $lg) {
+@media only screen and (min-width: $lg) and (max-width: $xl - 1) {
 }
 
-@media only screen and (min-width: $xl) {
+@media only screen and (min-width: $xl) and (max-width: $xxl - 1) {
 }
 
 @media only screen and (min-width: $xxl) {
