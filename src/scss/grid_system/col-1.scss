@@ -1,0 +1,50 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.col-1 {
+  grid-column: span 1;
+  padding: calc($BASE_NUMBER / 2);
+}
+
+@media only screen and (min-width: $sm) {
+  .col-sm-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .col-md-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .col-lg-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .col-xl-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .col-xxl-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
+
+
+@media print {
+  .col-print-1 {
+    grid-column: span 1 !important;
+    padding: calc($BASE_NUMBER / 2);
+  }
+}
