@@ -5,37 +5,37 @@
 }
 
 @media only screen and (min-width: $sm) {
-  .border-radius-9 {
+  .border-radius-sm-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }
 
 @media only screen and (min-width: $md) {
-  .border-radius-9 {
+  .border-radius-md-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }
 
 @media only screen and (min-width: $lg) {
-  .border-radius-9 {
+  .border-radius-lg-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }
 
 @media only screen and (min-width: $xl) {
-  .border-radius-9 {
+  .border-radius-xl-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }
 
 @media only screen and (min-width: $xxl) {
-  .border-radius-9 {
+  .border-radius-xxl-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }
 
 @media print {
-  .border-radius-9 {
+  .border-radius-print-9 {
     border-radius: calc(calc($BASE_NUMBER * .2) * 9) !important;
   }
 }

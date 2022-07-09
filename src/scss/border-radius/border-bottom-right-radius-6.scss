@@ -5,37 +5,37 @@
 }
 
 @media only screen and (min-width: $sm) {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-sm-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
 
 @media only screen and (min-width: $md) {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-md-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
 
 @media only screen and (min-width: $lg) {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-lg-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
 
 @media only screen and (min-width: $xl) {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-xl-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
 
 @media only screen and (min-width: $xxl) {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-xxl-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
 
 @media print {
-  .border-bottom-right-radius-6 {
+  .border-bottom-right-radius-print-6 {
     border-bottom-right-radius: calc(calc($BASE_NUMBER * .2) * 6) !important;
   }
 }
