@@ -8,46 +8,43 @@
 
 @media only screen and (min-width: $sm) {
   .col-sm-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $md) {
   .col-md-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $lg) {
   .col-lg-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xl) {
   .col-xl-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
 @media only screen and (min-width: $xxl) {
   .col-xxl-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
 
-@media (prefers-color-scheme: light) {}
-
-@media (prefers-color-scheme: dark) {}
 
 @media print {
   .col-print-11 {
-    grid-column: span 11;
+    grid-column: span 11 !important;
     padding: calc($BASE_NUMBER / 2);
   }
 }
