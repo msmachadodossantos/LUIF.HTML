@@ -1,0 +1,41 @@
+@import "../variables";
+
+.border-top-right-radius-8 {
+  border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8);
+}
+
+@media only screen and (min-width: $sm) {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}
+
+@media print {
+  .border-top-right-radius-8 {
+    border-top-right-radius: calc(calc($BASE_NUMBER * .2) * 8) !important;
+  }
+}

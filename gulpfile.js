@@ -149,3 +149,21 @@ function cleanBreadcrumb() {
 }
 
 exports.breadcrumb = series(cleanBreadcrumb, breadcrumb);
+
+
+// -------------------------------------------------------------------------------------------------
+const borderRadiusSrc = "src/scss/border-radius/**/*.scss";
+const borderRadiusDest = "dist/css/border-radius/";
+
+function borderRadius() {
+    return gulp.src(borderRadiusSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(borderRadiusDest));
+}
+
+function cleanBorderRadius() {
+    return gulp.src(borderRadiusDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.borderRadius = series(cleanBorderRadius, borderRadius);

@@ -1,0 +1,41 @@
+@import "../variables";
+
+.border-radius-42 {
+  border-radius: calc(calc($BASE_NUMBER * .2) * 42);
+}
+
+@media only screen and (min-width: $sm) {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
+
+@media print {
+  .border-radius-42 {
+    border-radius: calc(calc($BASE_NUMBER * .2) * 42) !important;
+  }
+}
