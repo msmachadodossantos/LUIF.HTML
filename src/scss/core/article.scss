@@ -18,8 +18,10 @@ article {
     counter-reset: h1;
 
     p:before {
+      color: $black-tint-80;
       counter-increment: p;
-      content: counter(p) " ";
+      content: counter(p);
+      font-family: $font-family-monospace;
       margin-right: calc($font-size-xs * 1.1);
     }
 
@@ -54,31 +56,31 @@ article {
 
     h2:before {
       counter-increment: h2;
-      content: counter(h1) "." counter(h2) " ";
+      content: counter(h1) "." counter(h2);
       margin-right: calc($font-size-xs * 1.1);
     }
 
     h3:before {
       counter-increment: h3;
-      content: counter(h1) "." counter(h2) "." counter(h3) " ";
+      content: counter(h1) "." counter(h2) "." counter(h3);
       margin-right: calc($font-size-xs * 1.1);
     }
 
     h4:before {
       counter-increment: h4;
-      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " ";
+      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4);
       margin-right: calc($font-size-xs * 1.1);
     }
 
     h5:before {
       counter-increment: h5;
-      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5);
       margin-right: calc($font-size-xs * 1.1);
     }
 
     h6:before {
       counter-increment: h6;
-      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+      content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6);
       margin-right: calc($font-size-xs * 1.1);
     }
 
