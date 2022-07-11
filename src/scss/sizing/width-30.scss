@@ -5,25 +5,25 @@
   width: 30%;
 }
 
-@media only screen and (min-width: $sm) {
+@media only screen and (min-width: $sm) and (max-width: $md - 1) {
   .width-sm-30 {
     width: 30% !important;
   }
 }
 
-@media only screen and (min-width: $md) {
+@media only screen and (min-width: $md) and (max-width: $lg - 1) {
   .width-md-30 {
     width: 30% !important;
   }
 }
 
-@media only screen and (min-width: $lg) {
+@media only screen and (min-width: $lg) and (max-width: $xl - 1) {
   .width-lg-30 {
     width: 30% !important;
   }
 }
 
-@media only screen and (min-width: $xl) {
+@media only screen and (min-width: $xl) and (max-width: $xxl - 1) {
   .width-xl-30 {
     width: 30% !important;
   }

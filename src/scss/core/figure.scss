@@ -17,6 +17,17 @@ figure {
   }
 }
 
+figure.width-100,
+figure.width-sm-100,
+figure.width-md-100,
+figure.width-lg-100,
+figure.width-xl-100,
+figure.width-xxl-100,
+figure.width-print-100 {
+  width: calc(100% - calc($BASE_NUMBER * 2));
+}
+
+
 @media only screen and (min-width: $sm) {}
 
 @media only screen and (min-width: $md) {}

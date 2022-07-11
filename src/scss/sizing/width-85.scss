@@ -5,25 +5,25 @@
   width: 85%;
 }
 
-@media only screen and (min-width: $sm) {
+@media only screen and (min-width: $sm) and (max-width: $md - 1) {
   .width-sm-85 {
     width: 85% !important;
   }
 }
 
-@media only screen and (min-width: $md) {
+@media only screen and (min-width: $md) and (max-width: $lg - 1) {
   .width-md-85 {
     width: 85% !important;
   }
 }
 
-@media only screen and (min-width: $lg) {
+@media only screen and (min-width: $lg) and (max-width: $xl - 1) {
   .width-lg-85 {
     width: 85% !important;
   }
 }
 
-@media only screen and (min-width: $xl) {
+@media only screen and (min-width: $xl) and (max-width: $xxl - 1) {
   .width-xl-85 {
     width: 85% !important;
   }
