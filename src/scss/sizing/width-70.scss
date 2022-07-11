@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.width-70 {
+  width: 70%;
+}
+
+@media only screen and (min-width: $sm) {
+  .width-sm-70 {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .width-md-70 {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .width-lg-70 {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .width-xl-70 {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .width-xxl-70 {
+    width: 70% !important;
+  }
+}
+
+@media print {
+  .width-print-70 {
+    width: 70% !important;
+  }
+}

@@ -167,3 +167,21 @@ function cleanBorderRadius() {
 }
 
 exports.borderRadius = series(cleanBorderRadius, borderRadius);
+
+
+// -------------------------------------------------------------------------------------------------
+const sizingSrc = "src/scss/sizing/**/*.scss";
+const sizingDest = "dist/css/sizing/";
+
+function sizing() {
+    return gulp.src(sizingSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(sizingDest));
+}
+
+function clearSizing() {
+    return gulp.src(sizingDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.sizing = series(clearSizing, sizing);
