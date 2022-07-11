@@ -17,29 +17,56 @@ figure {
   }
 }
 
-figure.width-100,
-figure.width-sm-100,
-figure.width-md-100,
-figure.width-lg-100,
-figure.width-xl-100,
-figure.width-xxl-100,
-figure.width-print-100 {
-  width: calc(100% - calc($BASE_NUMBER * 2));
+figure.width-100 {
+  max-width: calc(100% - calc($BASE_NUMBER * 2));
 }
 
 
-@media only screen and (min-width: $sm) {}
+@media only screen and (min-width: $sm) and (max-width: $md -1) {
+  figure.width-sm-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
 
-@media only screen and (min-width: $md) {}
 
-@media only screen and (min-width: $lg) {}
+@media only screen and (min-width: $md) and (max-width: $lg -1) {
+  figure.width-md-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
 
-@media only screen and (min-width: $xl) {}
 
-@media only screen and (min-width: $xxl) {}
+@media only screen and (min-width: $lg) and (max-width: $xl -1) {
+  figure.width-lg-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
 
-@media print {}
 
-@media (prefers-color-scheme: light) {}
+@media only screen and (min-width: $xl) and (max-width: $xxl -1) {
+  figure.width-xl-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
 
-@media (prefers-color-scheme: dark) {}
+
+@media only screen and (min-width: $xxl) {
+  figure.width-xxl-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
+
+
+@media print {
+  figure.width-print-100 {
+    width: calc(100% - calc($BASE_NUMBER * 2)) !important;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+}
+
+
+@media (prefers-color-scheme: dark) {
+}
