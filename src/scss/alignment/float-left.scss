@@ -1,0 +1,42 @@
+@import "../variables";
+
+/* General assignments for all viewports. */
+.float-left {
+  float: left;
+}
+
+@media only screen and (min-width: $sm) {
+  .float-sm-left {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .float-md-left {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .float-lg-left {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  .float-xl-left {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  .float-xxl-left {
+    float: left;
+  }
+}
+
+@media print {
+  .float-print-left {
+    float: left;
+  }
+}
