@@ -1,4 +1,34 @@
-@import "../_variables.scss";
+@import "../variables";
 
+/* General assignments for all viewports. */
 figure {
+  background-color: $wall;
+  margin: 0;
+  padding: $BASE_NUMBER $BASE_NUMBER calc($BASE_NUMBER * 1.3);
+
+  figcaption {
+    color: $gray;
+    padding-bottom: calc($BASE_NUMBER * 0);
+    padding-top: calc($BASE_NUMBER * 0.5);
+  }
+
+  img {
+    width: 100%;
+  }
 }
+
+@media only screen and (min-width: $sm) {}
+
+@media only screen and (min-width: $md) {}
+
+@media only screen and (min-width: $lg) {}
+
+@media only screen and (min-width: $xl) {}
+
+@media only screen and (min-width: $xxl) {}
+
+@media print {}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
