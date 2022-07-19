@@ -12,6 +12,11 @@ article {
     .date {
       font-family: $font-family-monospace;
     }
+
+    h1 {
+      margin-block-end: 0;
+      margin-block-start: 0;
+    }
   }
 
   .article-content {
