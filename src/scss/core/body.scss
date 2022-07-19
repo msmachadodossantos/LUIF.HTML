@@ -46,13 +46,14 @@ body {
 }
 
 .toggle {
-  background-color: $black-tint-95;
-  color: $black-tint-70;
+  background-color: $accent-shade-50;
+  color: $accent-tint-95;
   cursor: pointer;
   font-family: $font-family-monospace;
-  font-size: calc($font-size-xs * 0.8);
-  padding: calc(calc($BASE_NUMBER * .2) * 3);
-  text-align: right;
+  font-size: calc($font-size-xs * 1.5);
+  line-height: calc($font-size-xs * 1.5);
+  padding: calc(calc($BASE_NUMBER * .2) * 1) calc(calc($BASE_NUMBER * .2) * 3);
+  text-align: left;
 }
 
 .toggle:after {
