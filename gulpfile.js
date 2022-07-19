@@ -26,8 +26,8 @@ exports.core = series(cleanCore, core);
 
 
 // -------------------------------------------------------------------------------------------------
-const colorPaletteSrc = "src/scss/color_palette/**/*.scss";
-const colorPaletteDest = "dist/css/color_palette/";
+const colorPaletteSrc = "src/scss/color-palette/**/*.scss";
+const colorPaletteDest = "dist/css/color-palette/";
 
 function colorPalette() {
     return gulp.src(colorPaletteSrc, {"allowEmpty": true})
