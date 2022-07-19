@@ -44,8 +44,8 @@ exports.colorPalette = series(cleanColorPalette, colorPalette);
 
 
 // -------------------------------------------------------------------------------------------------
-const gridSystemSrc = "src/scss/grid_system/**/*.scss";
-const gridSystemDest = "dist/css/grid_system/";
+const gridSystemSrc = "src/scss/grid-system/**/*.scss";
+const gridSystemDest = "dist/css/grid-system/";
 
 function gridSystem() {
     return gulp.src(gridSystemSrc, {"allowEmpty": true})
