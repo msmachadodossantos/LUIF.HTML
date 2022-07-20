@@ -185,3 +185,22 @@ function clearSizing() {
 }
 
 exports.sizing = series(clearSizing, sizing);
+
+
+
+// -------------------------------------------------------------------------------------------------
+const shadowSrc = "src/scss/shadow/**/*.scss";
+const shadowDest = "dist/css/shadow/";
+
+function shadow() {
+    return gulp.src(shadowSrc, {"allowEmpty": true})
+        .pipe(sass({outputStyle: 'compressed'}, '').on("error", sass.logError))
+        .pipe(dest(shadowDest));
+}
+
+function clearShadow() {
+    return gulp.src(shadowDest, {"allowEmpty": true, read: false})
+        .pipe(clean());
+}
+
+exports.shadow = series(clearShadow, shadow);
