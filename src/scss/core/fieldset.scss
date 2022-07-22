@@ -1,4 +1,32 @@
-@import "../_variables.scss";
+@import "../variables";
+
+/* General assignments for all viewports. */
+fieldset[disabled] {
+  opacity: .5;
+}
 
 fieldset {
+  background-color: $wall;
+  border: 1px solid $black-tint-80;
+  padding: 0;
+
+  .row:nth-child(odd) {
+    background-color: $black-tint-95;
+  }
 }
+
+@media only screen and (min-width: $sm) {}
+
+@media only screen and (min-width: $md) {}
+
+@media only screen and (min-width: $lg) {}
+
+@media only screen and (min-width: $xl) {}
+
+@media only screen and (min-width: $xxl) {}
+
+@media print {}
+
+@media (prefers-color-scheme: light) {}
+
+@media (prefers-color-scheme: dark) {}
