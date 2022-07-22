@@ -1,4 +1,158 @@
-@import "../_variables.scss";
+@import "../variables";
 
-input {
+/* General assignments for all viewports. */
+.faux-input {
+  background-color: #FFFFFF;
+  border: 1px solid $black-tint-80;
+  padding: calc(calc($BASE_NUMBER * .2) * 3);
+  width: calc(100% - calc(calc(calc($BASE_NUMBER * .2) * 3) * 2) - 1px);
+  z-index: 1000;
+}
+
+input[type="color"] {
+  height: 39.03px;
+}
+
+input[type="button"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="reset"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  background-color: #FFFFFF;
+  border: 1px solid $black-tint-80;
+  font-size: $font-size-xs;
+  line-height: $line-height;
+  padding: calc(calc($BASE_NUMBER * .2) * 3);
+  width: calc(100% - calc(calc(calc($BASE_NUMBER * .2) * 3) * 2) - 1px);
+}
+
+input[type="button"],
+input[type="color"],
+input[type="reset"],
+input[type="search"],
+input[type="submit"] {
+  padding-bottom: calc(calc(calc($BASE_NUMBER * .2) * 3) * .8777);
+  padding-top: calc(calc(calc($BASE_NUMBER * .2) * 3) * .8777);
+  width: calc(100% + 1px);
+}
+
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  padding-bottom: calc(calc(calc($BASE_NUMBER * .2) * 3) * .7777);
+  padding-top: calc(calc(calc($BASE_NUMBER * .2) * 3) * .7777);
+  width: calc(100% - (calc(calc($BASE_NUMBER * .2) * 6)) - 1px);
+}
+
+@media only screen and (min-width: $sm) {
+  input[type="text"] {
+    font-size: $font-size-sm;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  input[type="text"] {
+    font-size: $font-size-md;
+  }
+
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  input[type="search"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .faux-input,
+  input[type="text"] {
+    width: calc(100% - calc(calc(calc($BASE_NUMBER * .2) * 3) * 2) - 2px);
+  }
+
+  input[type="text"] {
+    font-size: $font-size-lg;
+  }
+
+  input[type="button"],
+  input[type="color"],
+  input[type="reset"],
+  input[type="search"],
+  input[type="submit"] {
+    width: calc(100% - 1px);
+  }
+
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="email"],
+  input[type="file"],
+  input[type="month"],
+  input[type="number"],
+  input[type="password"],
+  input[type="range"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"] {
+    width: calc(100% - (calc(calc($BASE_NUMBER * .2) * 6)) - 2px);
+  }
+}
+
+@media only screen and (min-width: $xl) {
+  input[type="text"] {
+    font-size: $font-size-xl;
+  }
+
+  input[type="button"],
+  input[type="color"],
+  input[type="reset"],
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  input[type="search"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: $xxl) {
+  input[type="text"] {
+    font-size: $font-size-xxl;
+  }
+}
+
+@media print {
+  input[type="text"] {
+    font-size: $font-size-print;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
 }
