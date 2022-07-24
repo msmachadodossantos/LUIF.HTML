@@ -1,3 +1,5 @@
+// FIXME: v1: pass element instead this.nextElementSibling
+
 let elem = document.getElementsByClassName('toggle');
 for (let i = 0; i < elem.length; i++) {
     elem[i].addEventListener('click', function () {
