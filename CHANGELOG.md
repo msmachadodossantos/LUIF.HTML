@@ -9,7 +9,6 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Modal
 - Off-canvas
 - Sliding menu
-- Top-menu
 - Tree-shaker
 - Visual Studio Code Snippets
 
